@@ -5,39 +5,41 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  //const MyApp({Key? key}) : super(key: key);
-
-  List<String> list_Nama = [
-    "Sulthon Wagyu Alima",
-    "Amir Saiful Dian",
-    "Daud Dwi Setiawan",
-    "Danial Ibrahim Krisna inyrarigrapari",
-    "Lutfi Harun Asih",
-    "Vina Zulfikar Ratu",
-    "Nana"
-  ];
-  list_nama.sort(),
-  List<String> list_Email = [
-    "sulthon.wagyuA5@yahoo.com",
-    "amir.saiful@yahoo.com",
-    "daud55@yahoo.com",
-    "graparinyariin@yahoo.com",
-    "luthfiharun@yahoo.com",
-    "vinaRatu@yahoo.com",
-    "clifton.nana@hotmail.com"
-  ];
-  List<String> list_NoTelpon = [
-    "0860-3070-6405",
-    "0867-439-523",
-    "0870-7039-94213",
-    "0837-1620-97591",
-    "0860-5032-9699",
-    "0883-4807-876",
-    "0880-8993-5927"
-  ];
+  MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    List<String> list_Nama = [
+      "Sulthon Wagyu Alima",
+      "Amir Saiful Dian",
+      "Daud Dwi Setiawan",
+      "Danial Ibrahim Krisna inyrarigrapari",
+      "Lutfi Harun Asih",
+      "Vina Zulfikar Ratu",
+      "Nana"
+    ];
+    list_Nama.sort();
+
+    List<String> list_Email = [
+      "sulthon.wagyuA5@yahoo.com",
+      "amir.saiful@yahoo.com",
+      "daud55@yahoo.com",
+      "d.graparinyariin@yahoo.com",
+      "luthfiharun@yahoo.com",
+      "vinaRatu@yahoo.com",
+      "nana.clifton@hotmail.com"
+    ];
+    list_Email.sort();
+    List<String> list_NoTelpon = [
+      "0860-3070-6405",
+      "0867-439-523",
+      "0870-7039-94213",
+      "0837-1620-97591",
+      "0860-5032-9699",
+      "0883-4807-876",
+      "0880-8993-5927"
+    ];
+
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(

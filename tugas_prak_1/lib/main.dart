@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     "Vina Zulfikar Ratu",
     "Nana"
   ];
-
+  list_nama.sort(),
   List<String> list_Email = [
     "sulthon.wagyuA5@yahoo.com",
     "amir.saiful@yahoo.com",
